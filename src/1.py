@@ -1,1 +1,3 @@
-# flake8 bad
+"""Fix file"""
+
+print("Hello world")
