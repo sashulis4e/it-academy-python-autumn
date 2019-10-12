@@ -8,26 +8,3 @@ for i in range(2, n):
     f1 = f2
     f2 = f3
     print(f3)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
