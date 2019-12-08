@@ -3,8 +3,8 @@
 # Define a code which count and return the numbers of each character in
 # a count_me_string argument.
 
-n = int(input('Введите число'))
-dct = dict()
-for n in range(1, n):
-    dct[n] = n ** 2
-print(dct)
+number = int(input('Введите число '))
+dct_numbers = dict()
+for number in range(1, number):
+    dct_numbers[number] = number ** 2
+print(dct_numbers)
