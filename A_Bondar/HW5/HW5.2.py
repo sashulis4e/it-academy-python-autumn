@@ -5,8 +5,9 @@
 text = input('Введите текст ')
 words = {}
 result = []
-text = ''.join(sign for sign in text if sign not in (',', '.', '?', '!', ':', ';', '(', ')', '[', ']',
-                                                     '{', '}', '+', '-', '/', '|', '>', '<', '=', '#',
+text = ''.join(sign for sign in text if sign not in (',', '.', '?', '!', ':', ';', '(', ')',
+                                                     '[', ']','{', '}', '+', '-', '/', '|',
+                                                     '>', '<', '=', '#',
                                                      '$', '%', '^', '&', '*'))
 text = text.lower().split()
 for word in range(len(text)):
