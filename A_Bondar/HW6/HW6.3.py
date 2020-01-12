@@ -7,15 +7,14 @@
 # get_ranges([2, 3, 8, 9]) // "2-3,8-9"
 
 
-def get_ranges(numbers):
+def get_ranges(nums):
     solution = ""
-    for number in range(len(numbers) - 1):
-        if numbers[number] + 1 == numbers[number + 1] and \
-                numbers[number] - 1 != numbers[number - 1]:
-            solution += '{}-'.format(numbers[number])
-        elif numbers[number] + 1 != numbers[number + 1]:
-            solution += '{},'.format(numbers[number])
-    solution += str(numbers[-1])
+    for n in range(len(nums) - 1):
+        if nums[n] + 1 == nums[n + 1] and nums[n] - 1 != nums[n - 1]:
+            solution += '{}-'.format(nums[n])
+        elif nums[n] + 1 != nums[n + 1]:
+            solution += '{},'.format(nums[n])
+    solution += str(nums[-1])
     print(solution)
 
 
